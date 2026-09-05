@@ -57,9 +57,7 @@ workspace "flecs"
         filter "configurations:Distribution"
             symbols "Off"
             optimize "Speed"
-            flags {
-                "LinkTimeOptimization"
-            }
+            
 
         filter {}
 
